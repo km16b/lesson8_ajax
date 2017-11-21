@@ -4,19 +4,18 @@
 LIS 2360:  Web Application Development
 
 ### Assignment Date:  
-(Month Day, Year)
+November 21, 2017
 
 ### Student Name:  
-(First and Last Name)
+Kayla Macleod
 
 ### Project Description:
-(In your own words, briefly describe the assignment.)
+In this project we retrieve information from other internet sources to create a movie database.
 
 ### View Project:
-(Replace this statement with your Github Page URL that was created when you 
- published the project.)
+https://km16b.github.io/lesson8_ajax/.
 
 ### Lessons Learned in the Assignment:
-1. (Briefly describe a lesson/concept learned in this lesson.)
-2. (Briefly describe a lesson/concept learned in this lesson.)
-3. (Briefly describe a lesson/concept learned in this lesson.)
+1. I learned about an application-programming interface (API) and how it is provides instructions for viewing software applications
+2. I learned about Asynchronous JavaScript and XML (AJAX) and how it allows us to access data without refreshing a page.
+3. I learned about JavaScript Object Notation and XML (JSON) and how it is primarily used to send data between applications and servers. 

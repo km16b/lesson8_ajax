@@ -2,9 +2,9 @@
 
 <html>
 <!-- 
-Program Name:   Seminole Movie Connection using TheMovieDB API
-Author: 
-Date: 
+Program Name: Seminole Movie Connection using TheMovieDB API
+Author: Kayla Macleod
+Date: November 21, 2017
 Filename:   index.html
 -->
 
@@ -43,7 +43,6 @@ Filename:   index.html
                         <p class="list-group-item-text lead text-primary" id="original_title"> </p>
                     </a>
              
-             
                      <!--******************************Insert Movie Plot*********************************
                      TASK #2:  
                      1.  Include the code below that will display the following heading:  "Movie Plot:"
@@ -53,8 +52,10 @@ Filename:   index.html
                      Use the Movie Title code as an example.
                      
                      *********************************Insert Code Below********************************-->
-                     
-                     
+                     <a href="#" class="list-group-item">
+                        <h3 class="list-group-item-heading">Movie Plot:</h3>
+                        <p class="list-group-item-text lead text-primary" id="overview"> </p>
+                    </a>
                      
                     <!--**************************Insert Movie Release Date*****************************
                      TASK #3:  
@@ -65,8 +66,10 @@ Filename:   index.html
                      Use the Movie Title code as an example.
                      
                      *******************************Insert Code Below********************************-->
-            
-            
+                    <a href="#" class="list-group-item">
+                        <h3 class="list-group-item-heading">Release Date:</h3>
+                        <p class="list-group-item-text lead text-primary" id="release_date"> </p>
+                    </a>
             
                     <!--**********************Insert Movie Popularity Rating***************************
                      TASK #4:  
@@ -77,8 +80,10 @@ Filename:   index.html
                      Use the Movie Title code as an example.
                      
                      *******************************Insert Code Below********************************-->
-            
-            
+                    <a href="#" class="list-group-item">
+                        <h3 class="list-group-item-heading">Popularity Rating:</h3>
+                        <p class="list-group-item-text lead text-primary" id="popularity"> </p>
+                    </a>
             
                     <!--*************************Insert Movie Language************************************
                      TASK #5:  
@@ -89,7 +94,34 @@ Filename:   index.html
                      Use the Movie Title code as an example.
                      
                      *******************************Insert Code Below********************************-->
+                    <a href="#" class="list-group-item">
+                        <h3 class="list-group-item-heading">Language:</h3>
+                        <p class="list-group-item-text lead text-primary" id="original_language"> </p>
+                    </a>
+                    
+                    <!-- ************Additional movie information items************* -->
+                    <a href="#" class="list-group-item">
+                        <h3 class="list-group-item-heading">Vote Average:</h3>
+                        <p class="list-group-item-text lead text-primary" id="vote_average">  </p>
+                    </a>
+                    
+                    <!-- ************Additional movie information items************* -->
+                    <a href="#" class="list-group-item">
+                        <h3 class="list-group-item-heading">Vote Count:</h3>
+                        <p class="list-group-item-text lead text-primary" id="vote_count">  </p>
+                    </a>
             
+                     <!-- ************Additional movie information items************* -->
+                    <a href="#" class="list-group-item">
+                        <h3 class="list-group-item-heading">Genre ID:</h3>
+                        <p class="list-group-item-text lead text-primary" id="genre_ids">  </p>
+                    </a>
+                    
+                     <!-- ************Additional movie information items************* -->
+                    <a href="#" class="list-group-item">
+                        <h3 class="list-group-item-heading">Backdrop:</h3>
+                        <center><img id = "backdrop_path"> </img></center>
+                    </a>
             
                     <!--The code below retrieves the poster URL from the HTTP Response message and displays
                         the poster on the HTML document where the id is:  "poster_path"
@@ -98,6 +130,8 @@ Filename:   index.html
                         <h3 class="list-group-item-heading">Poster:</h3>
                         <center><img id = "poster_path"> </img></center>
                     </a> 
+                    
+                    
                 </div>
             </div> 
     
